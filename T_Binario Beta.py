@@ -7,15 +7,15 @@ def T_Binario(a):
 
     elif a[0] == "d": #Es notación decimal?
         
-        numero_decimal=int(a[1:])
+        numero_decimal=int(a[1:]) #Extraemos el número de la cadena
         binario = ""
     
         modulos = [] # la lista para guardar los módulos
         while numero_decimal != 0: # mientras el número de entrada sea diferente de cero
-            modulo = numero_decimal % 2
-            cociente = numero_decimal // 2
-            modulostr = str(modulo)
-            binario = binario + modulostr
+            modulo = numero_decimal % 2 
+            cociente = numero_decimal // 2 
+            modulostr = str(modulo) #transformamos el entero en string para poder contatenarlo
+            binario = binario + modulostr #agregamos el bit a la cadena
 
             #modulos.append(str(modulostr)) # guardamos el módulo calculado
             numero_decimal = cociente # el cociente pasa a ser el número de entrada
@@ -27,7 +27,6 @@ def T_Binario(a):
         n = int(a[1:], 16) #Por medio de la biblioteca math transformamos el hexadecimal a decial
         return T_Binario("d"+str(n)) #Mandamos el número transformado a decial a ser convertido a binario a esta misma función
 
-    else:
-        return a[1:];
-        
+    else:       #Como no hay un identificador, asumimos como número decimal 
+        return T_Binario("d"+a) #Mandamos el número transformado a decial a ser convertido a binario a esta misma función
 
