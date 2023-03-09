@@ -1,0 +1,33 @@
+import math
+
+
+def T_Binario(a):
+    if a[0] == "b": #Es notación binario?
+        return a[1:]
+
+    elif a[0] == "d": #Es notación decimal?
+        
+        numero_decimal=int(a[1:])
+        binario = ""
+    
+        modulos = [] # la lista para guardar los módulos
+        while numero_decimal != 0: # mientras el número de entrada sea diferente de cero
+            modulo = numero_decimal % 2
+            cociente = numero_decimal // 2
+            modulostr = str(modulo)
+            binario = binario + modulostr
+
+            #modulos.append(str(modulostr)) # guardamos el módulo calculado
+            numero_decimal = cociente # el cociente pasa a ser el número de entrada
+        
+        return binario[::-1]
+
+    
+    elif a[0] == "h": #Es notación hexadecimal?
+        n = int(a[1:], 16) #Por medio de la biblioteca math transformamos el hexadecimal a decial
+        return T_Binario("d"+str(n)) #Mandamos el número transformado a decial a ser convertido a binario a esta misma función
+
+    else:
+        return a[1:];
+        
+
