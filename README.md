@@ -17,24 +17,16 @@
 
 
 ## Descripción general
+Este proyecto consiste en el desarrollo de un circuito de multiplicación convinacional mediante la apacidad de implementarlos utilizando un lenguaje de programación por medio de Python, este proyecto consta con la implementación de un módulo main de lectura del dato, un subsistema de transformación de base, además de un subsistema de multiplicación de dos números binarios y así como un subsistema para generar el PDF final en formato LaTeX.
 
-En el mundo de la electrónica digital, los circuitos de lógica aritmética son fundamentales para el procesamiento
-de datos. Estos circuitos son capaces de realizar operaciones aritméticas y lógicas básicas, tales como
-la suma, la resta y la multiplicación de números binarios. En particular, los multiplicadores combinacionales
-son circuitos que realizan la multiplicación de dos números de entrada sin la necesidad de almacenamiento
-temporal.
-Este proyecto tiene como objetivo brindar a los estudiantes una comprensión profunda de los circuitos
-digitales combinacionales y la capacidad de implementarlos utilizando un lenguaje de programación. Además,
-con este proyecto se pretende dar un acercamiento al uso de sistemas de control de versiones.
-Este proyecto consiste en el desarrollo de un circuito decodificador de Gray mediante utilización de Verilog y el suit de herramintas de Vivado, así como la implementación de diseño digital en una FPGA en este caso una NEXYS 4 ddr para demostrar su funcionamiento, este proyecto consta de un subsistema de lectura y decodificación de código Gray además de un subsistema de despliegue de código ingresado traducido a formato binario en luces LED y así como un subsistema de despliegue de código ingresado y decodificado en display de 7 segmentos.
 
 ## Descripción de cada subsistema
-### Subsistema de lectura y decodificación de código Gray
-En este primer subsistema el programa traduce la entrada de cuatro conmutadores en código gray a formato del código binario. La entrada del código es capturada y sincronizada con el sistema principal, para que posterior se realice un muestreo de estos con una duración de al menos cada 500 ms. Como se muestra en la imagen a continuación sobre la implementación y la correcta trasformación del Código Binario de 4 bits a partir de un Código de Gray necesario al llevar a cabo este circuito para mostrar un numero final decimal.
+### Subsistema de implementación del modulo main
+En este subsistema en primer lugar se verifica que los números ingresados a multiplicar sean binarios, además es el encargado de llamar a los demás módulos en caso de ser necesaria la transformación de la base para realizar la multiplicación.
 
 #### Imagen correspondiente al Código Gray de 4 bits
 
-![image](https://user-images.githubusercontent.com/111375712/194989182-d70d0202-ddf0-42c4-a5aa-75aeaf40c07f.png)
+
 
 
 ### Subsistema de despliegue de código ingresado traducido a formato binario en luces LED
