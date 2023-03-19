@@ -17,7 +17,18 @@
 
 
 ## Descripción general
-Este proyecto consiste en el desarrollo de un circuito de multiplicación convinacional mediante la capacidad de implementarlos utilizando un lenguaje de programación por medio de Python, este proyecto consta con la implementación de un módulo main de lectura del dato, un subsistema de transformación de base, además de un subsistema de multiplicación de dos números binarios y así como un subsistema para generar el PDF final en formato LaTeX.
+En primer lugar es importante mencionar que los circuitos de lógica aritmética que los operadores que permiten realizar la operación de la multiplicación y lógicas básicas mediante circuitos combinacionales, como la suma, la resta y la multiplicación de números binarios, sin la necesidad de que exista la realimentación o el almacenamiento temporal de la información, estos los combierte en que sean fundamentales para el procesamiento de datos. En el caso del método de multiplicación binaria es un proceso de operación por sumas y desplazamientos, la multiplicación de los números binarios se realiza multiplicando el multiplicando con el multiplicador, en la cualexisten dos opciones en donde, la multiplicación por cero hace que todos los bits sean cero y la multiplicación por 1 hace que todo el valor del multiplicando no cambie, este proceso se tiene que continuar hasta que se haga todo el multiplicador, y finalmente, se hace la operación de suma, la cual tiene una implementación combinacional prácticamente directa realizando el mismo procedimiento algorítmico que la multiplicación en decimal.
+Este proyecto consiste en el desarrollo de un circuito de multiplicación convinacional mediante la capacidad de implementarlos utilizando un lenguaje de programación por medio de Python, consta con la implementación de un módulo main de lectura del dato, un subsistema de transformación de base, además de un subsistema de multiplicación de dos números binarios, un módulo adicional de implementación del módulo multiplicación con signo y así como un subsistema para generar el PDF final en formato LaTeX.
+
+
+## Objetivo General del Proyecto
+Introducir al estudiante en el tema de implementación de algoritmos que emulen sistemas digitales.
+
+##  Objetivos Específicos del Proyecto
+1. Estudiar la complejidad computacional del algoritmo que permite la multiplicación binaria.
+2. Desarrollar una implementación de un multiplicador combinacional.
+3. Coordinación de trabajo en equipo mediante el uso de herramientas de control de versiones.
+4. Practicar planificación de tareas para trabajo de grupo.
 
 
 ## Descripción de cada subsistema
@@ -45,6 +56,11 @@ En este tercer subsistema se realiza la multiplicación de dos números binarios
 #### Imagen correspondiente a
 
 
+### Subsistema extra de implementación del módulo Multiplicación con signo.
+En este tercer subsistema se realiza la implementación de la multiplicación con signo (soporte a números negativos) con su desarrollo. En este caso para indicar el signo use el carácter ”sçomo indicador del tipo de dato (ej.: ds-2, ds3, hsf).
+
+#### Imagen correspondiente a
+
 
 
 ### Subsistema de generación del PDF en formato LaTeX
@@ -69,6 +85,9 @@ A continuación se muestra un diagrama de bloques sobre el funcionamiento genera
 
 #### Subsistema de implementación del módulo Multiplicación Binaria.
 
+
+
+### Subsistema extra de implementación del módulo Multiplicación con signo.
 
 
 
