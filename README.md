@@ -18,6 +18,9 @@
 
 ## Descripción general
 En primer lugar es importante mencionar que los circuitos de lógica aritmética que los operadores que permiten realizar la operación de la multiplicación y lógicas básicas mediante circuitos combinacionales, como la suma, la resta y la multiplicación de números binarios, sin la necesidad de que exista la realimentación o el almacenamiento temporal de la información, estos los combierte en que sean fundamentales para el procesamiento de datos. En el caso del método de multiplicación binaria es un proceso de operación por sumas y desplazamientos, la multiplicación de los números binarios se realiza multiplicando el multiplicando con el multiplicador, en la cualexisten dos opciones en donde, la multiplicación por cero hace que todos los bits sean cero y la multiplicación por 1 hace que todo el valor del multiplicando no cambie, este proceso se tiene que continuar hasta que se haga todo el multiplicador, y finalmente, se hace la operación de suma, la cual tiene una implementación combinacional prácticamente directa realizando el mismo procedimiento algorítmico que la multiplicación en decimal.
+
+![image](https://user-images.githubusercontent.com/111375712/226212475-083ccd67-8f55-4391-8ccd-a957bed57154.png)
+
 Este proyecto consiste en el desarrollo de un circuito de multiplicación convinacional mediante la capacidad de implementarlos utilizando un lenguaje de programación por medio de Python, consta con la implementación de un módulo main de lectura del dato, un subsistema de transformación de base, además de un subsistema de multiplicación de dos números binarios, un módulo adicional de implementación del módulo multiplicación con signo y así como un subsistema para generar el PDF final en formato LaTeX.
 
 
