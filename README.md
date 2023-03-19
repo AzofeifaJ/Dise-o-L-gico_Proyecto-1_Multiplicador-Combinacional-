@@ -47,10 +47,6 @@ En este segundo subsistema se realiza la conversión de cualquier tipo de númer
 ![image](https://user-images.githubusercontent.com/111375712/226212630-6d80f40b-fe50-4083-84a3-27ddc4ee15d5.png)
 
 
-
-
-
-
 ### Subsistema de implementación del módulo Multiplicación Binaria.
 En este tercer subsistema se realiza la multiplicación de dos números binarios con el fin de generar la salida de un solo número binario.
 
