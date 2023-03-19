@@ -38,15 +38,13 @@ Introducir al estudiante en el tema de implementación de algoritmos que emulen 
 ### Subsistema de implementación del módulo main
 En este subsistema en primer lugar se verifica que los números ingresados a multiplicar sean binarios, además es el encargado de llamar a los demás módulos en caso de ser necesaria la transformación de la base para realizar la multiplicación.
 
-#### Imagen correspondiente a 
-
-
-
 
 ### Subsistema de implementación del módulo transformación de base.
 En este segundo subsistema se realiza la conversión de cualquier tipo de número que entre en hexadecimal o decimal a binario.
 
-#### Imagen correspondiente a
+#### Imagen correspondiente a conversión binaria, decimal y hexadecimal.
+
+![image](https://user-images.githubusercontent.com/111375712/226212630-6d80f40b-fe50-4083-84a3-27ddc4ee15d5.png)
 
 
 
