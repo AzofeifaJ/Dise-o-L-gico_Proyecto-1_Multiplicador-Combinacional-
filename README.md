@@ -42,7 +42,7 @@ En este subsistema en primer lugar se verifica que los números ingresados a mul
 ### Subsistema de implementación del módulo transformación de base.
 En este segundo subsistema se realiza la conversión de cualquier tipo de número que entre en hexadecimal o decimal a binario.
 
-#### Imagen correspondiente a conversión binaria, decimal y hexadecimal.
+#### Imagen correspondiente a conversión binaria, decimal y hexadecimal:
 
 ![image](https://user-images.githubusercontent.com/111375712/226212630-6d80f40b-fe50-4083-84a3-27ddc4ee15d5.png)
 
@@ -50,22 +50,16 @@ En este segundo subsistema se realiza la conversión de cualquier tipo de númer
 ### Subsistema de implementación del módulo Multiplicación Binaria.
 En este tercer subsistema se realiza la multiplicación de dos números binarios con el fin de generar la salida de un solo número binario.
 
-#### Imagen correspondiente a
+#### Imagen correspondiente a ejemplo de la multiplicación de los números binarios:
 
+![image](https://user-images.githubusercontent.com/111375712/226212997-5fb46a29-348f-40d6-8916-df95b8c331eb.png)
 
 ### Subsistema extra de implementación del módulo Multiplicación con signo.
 En este tercer subsistema se realiza la implementación de la multiplicación con signo (soporte a números negativos) con su desarrollo. En este caso para indicar el signo use el carácter ”sçomo indicador del tipo de dato (ej.: ds-2, ds3, hsf).
 
-#### Imagen correspondiente a
-
-
 
 ### Subsistema de generación del PDF en formato LaTeX
-En este cuarto subsistema se toman los datos del algoritmo de multiplicación en binario y se genera un archivo en estilo Beamer por medio de LaTeX.
-
-#### Imagen correspondiente a 
-
-
+En este cuarto subsistema se toman los datos del algoritmo de multiplicación en binario y se genera un archivo en estilo Beamer por medio de LaTeX, en donde se muestran 3 diapositivas, la primera diapositiva indica los valores que se leyeron en la entrada de usuario (operandos, cantidad de bits, nombre del archivo de configuración), las siguientes diapositivas demuestran el desarrollo completo de la multiplicación binaria y el resultado final y la última diapositiva la información de la institución, integrantes, curso, año y semestre.
 
 ## Diagramas de bloques de cada subsistema
 A continuación se muestra un diagrama de bloques sobre el funcionamiento general del circuito multiplicador combinacional, así como un diagrama de bloques para cada subsistemas, con su funcionalidad descrita y su esquema de interconexión, además con el registro de entradas y salidas, sus diagramas de estado y las señales de control de cada bloque en la ruta de datos.
@@ -84,7 +78,7 @@ A continuación se muestra un diagrama de bloques sobre el funcionamiento genera
 
 
 
-### Subsistema extra de implementación del módulo Multiplicación con signo.
+#### Subsistema extra de implementación del módulo Multiplicación con signo.
 
 
 
@@ -95,6 +89,12 @@ A continuación se muestra un diagrama de bloques sobre el funcionamiento genera
 
 ## Imágenes de la gereración del PDF final en formato LaTeX con la solución algoritmo de multiplicación binaria.
 
+#### Diapositiva indica los valores que se leyeron en la entrada de usuario (operandos, cantidad de bits, nombre del archivo de configuración)
 
+
+#### Diapositivas del desarrollo completo de la multiplicación binaria y el resultado final 
+
+
+#### Diapositivas de la portada
 
 
