@@ -21,7 +21,7 @@ En primer lugar es importante mencionar que los circuitos de lógica aritmética
 
 ![image](https://user-images.githubusercontent.com/111375712/226212475-083ccd67-8f55-4391-8ccd-a957bed57154.png)
 
-Este proyecto consiste en el desarrollo de un circuito de multiplicación convinacional mediante la capacidad de implementarlos utilizando un lenguaje de programación por medio de Python, consta con la implementación de un módulo main de lectura del dato, un subsistema de transformación de base, además de un subsistema de multiplicación de dos números binarios, un módulo adicional de implementación del módulo multiplicación con signo y así como un subsistema para generar el PDF final en formato LaTeX.
+Este proyecto consiste en el desarrollo de un circuito de multiplicación convinacional mediante la capacidad de implementarlos utilizando un lenguaje de programación por medio de Python, consta con la implementación de un módulo main de lectura del dato, un subsistema de transformación de base, además de un subsistema de multiplicación de dos números binarios, así como un subsistema con el objetivo de generar el PDF final en formato LaTeX con la respuesta de salida de la multiplicación binaria.
 
 
 ## Objetivo General del Proyecto
@@ -54,9 +54,6 @@ En este tercer subsistema se realiza la multiplicación de dos números binarios
 
 ![image](https://user-images.githubusercontent.com/111375712/226212997-5fb46a29-348f-40d6-8916-df95b8c331eb.png)
 
-### Subsistema extra de implementación del módulo Multiplicación con signo.
-En este tercer subsistema se realiza la implementación de la multiplicación con signo (soporte a números negativos) con su desarrollo. En este caso para indicar el signo use el carácter ”sçomo indicador del tipo de dato (ej.: ds-2, ds3, hsf).
-
 
 ### Subsistema de generación del PDF en formato LaTeX
 En este cuarto subsistema se toman los datos del algoritmo de multiplicación en binario y se genera un archivo en estilo Beamer por medio de LaTeX, en donde se muestran 3 diapositivas, la primera diapositiva indica los valores que se leyeron en la entrada de usuario (operandos, cantidad de bits, nombre del archivo de configuración), las siguientes diapositivas demuestran el desarrollo completo de la multiplicación binaria y el resultado final y la última diapositiva la información de la institución, integrantes, curso, año y semestre.
@@ -75,15 +72,6 @@ A continuación se muestra un diagrama de bloques sobre el funcionamiento genera
 
 
 #### Subsistema de implementación del módulo Multiplicación Binaria.
-
-
-
-#### Subsistema extra de implementación del módulo Multiplicación con signo.
-
-
-
-#### Subsistema de generación del PDF en formato LaTeX.
-
 
 
 
