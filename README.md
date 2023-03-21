@@ -68,10 +68,12 @@ A continuación se muestra un diagrama de bloques sobre el funcionamiento genera
 
 ### Subsistema de implementación del módulo transformación de base.
 
-![Image](https://user-images.githubusercontent.com/111375712/225014855-e54d9a86-ffb1-4756-a829-c24e7fa8b37c.png)
+![Image](https://user-images.githubusercontent.com/111375712/226418428-a07900b7-c050-429e-8817-185aca169304.png)
 
 
 #### Subsistema de implementación del módulo Multiplicación Binaria.
+
+![Image](https://user-images.githubusercontent.com/111375712/226419202-68d78c8c-444b-46df-b36b-39f07e3552fd.png)
 
 
 
