@@ -67,7 +67,7 @@ A continuación se muestra un diagrama de bloques sobre el funcionamiento genera
 
 ### Subsistema main.
 
-![image](https://user-images.githubusercontent.com/111375712/226993366-5aba0a02-b738-45e3-88b1-f467ca20043e.png)
+![image](https://user-images.githubusercontent.com/111375712/227062212-3239d34b-e726-4925-9ac8-94e219ec6abb.png)
 
 
 ### Subsistema de implementación del módulo transformación de base.
