@@ -7,7 +7,7 @@ def T_Binario(a):
         numero_decimal=int(a[1:]) #Extraemos el número de la cadena
         binario = ""
     
-               while numero_decimal != 0: # mientras el número de entrada sea diferente de cero
+        while numero_decimal != 0: # mientras el número de entrada sea diferente de cero
             modulo = numero_decimal % 2 
             cociente = numero_decimal // 2 
             modulostr = str(modulo) #transformamos el entero en string para poder contatenarlo
