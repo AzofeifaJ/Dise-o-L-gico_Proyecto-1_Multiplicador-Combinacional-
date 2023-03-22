@@ -65,15 +65,20 @@ A continuación se muestra un diagrama de bloques sobre el funcionamiento genera
 
 ![Image](https://user-images.githubusercontent.com/111375712/224883886-803199b0-54e4-436c-9e0a-a8afbbfcb0c8.png)
 
+### Subsistema main.
+
+![image](https://user-images.githubusercontent.com/111375712/226993366-5aba0a02-b738-45e3-88b1-f467ca20043e.png)
+
 
 ### Subsistema de implementación del módulo transformación de base.
 
-![Image](https://user-images.githubusercontent.com/111375712/226418428-a07900b7-c050-429e-8817-185aca169304.png)
+![image](https://user-images.githubusercontent.com/111375712/226993424-433d17c1-0cb0-4a48-8727-85ceb56393e2.png)
 
 
 #### Subsistema de implementación del módulo Multiplicación Binaria.
 
-![Image](https://user-images.githubusercontent.com/111375712/226419202-68d78c8c-444b-46df-b36b-39f07e3552fd.png)
+![image](https://user-images.githubusercontent.com/111375712/226993462-c8227218-78ff-42f7-9221-9168efd1acdf.png)
+
 
 
 
@@ -81,10 +86,16 @@ A continuación se muestra un diagrama de bloques sobre el funcionamiento genera
 
 #### Diapositiva indica los valores que se leyeron en la entrada de usuario (operandos, cantidad de bits, nombre del archivo de configuración)
 
+![image](https://user-images.githubusercontent.com/111375712/226993708-c6fa6828-d935-4097-9ddc-3636809c1946.png)
 
-#### Diapositivas del desarrollo completo de la multiplicación binaria y el resultado final 
+
+#### Diapositiva del desarrollo completo de la multiplicación binaria y el resultado final 
+
+![image](https://user-images.githubusercontent.com/111375712/226993845-2ba1c402-90ee-42bf-9b29-3850335a70bf.png)
 
 
-#### Diapositivas de la portada
+#### Diapositiva con la información general
+
+![image](https://user-images.githubusercontent.com/111375712/226993998-3164cdee-7e59-4958-973c-35c2b8e7e6c8.png)
 
 
